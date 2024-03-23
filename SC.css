@@ -1,0 +1,145 @@
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:"Poppins",sans-serif ;
+  background: orange;
+  text-align: center;
+  color:black;
+}
+.box1{
+  position:relative ;
+  margin-top: 20px;
+   margin-left: 170px; 
+   width:850px;
+   height:23px ;
+   background: purple;
+   color: white; 
+   border-radius: 0px;
+   padding: 20px 30px ;
+  display:flex;
+  align-items: center;
+}
+.box1 .right{
+  text-align:right;
+  cursor: pointer;
+  justify-content: space-between;
+  margin-left:635px ;
+}
+.box2{
+  position:relative ;
+   margin-left: 170px; 
+   width:850px;
+   height:400px;
+   background: silver;
+   color: black; 
+   border-radius: 0px;
+   padding: 20px 30px  
+}
+
+ li, a, button {
+  font-family: "Monserrat",sans-serif;
+  font-weight:300 ;
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+
+}
+header {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  padding: 30px 10% ;
+}
+.logo{
+  text-align:left;
+  cursor: pointer;
+  justify-content: space-between;
+  margin-left:-110px ;
+  color: white;
+  font-weight:300 ;
+  font-size: 20px;
+}
+.nav{
+  list-style:none ;
+  text-align: left;
+}
+.nav li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+.nav li a{
+  transition: all 0.3s ease 0s;
+}
+.nav li a:hover{
+  color:blue ;
+}
+.search{
+  width:max-content;
+  display: flex;
+  align-items: right;
+  padding: 8px;
+  border-radius:20px ;
+  background: #f6f6f6;
+}
+.search-input{
+  font-size: 16px;
+  font-family:'Lexend',sans-serif;
+  color:#333333;
+  margin-left:0px ;
+  outline:none ;
+  border:none ;
+  background:transparent ;
+}
+button {
+  padding: 9px 8px;
+  background-color: white;
+  border:none ;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+img{
+  width:250px;
+  height:250px;
+  float: left;
+  margin: -21px;
+  border:3px solid black ;
+  margin-top: 60px;
+  display: flex;
+  margin-right: 30px;
+}
+.upImage{
+  position:absolute;
+  color: black;
+  left:inherit ;
+  margin-top: 30px;
+}
+.side{
+display: flex;
+flex-wrap: flex;
+margin-top: 55px;
+margin-left: 30px;
+text-align: left;
+}
+.red{
+  color: red;
+}
+.left{
+  text-align: left;
+  font-size: 20px;
+}
+.right{
+  text-align: right;
+}
+.column {
+  width: 200px;
+  border: 1px solid black;
+}
+
